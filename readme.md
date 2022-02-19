@@ -1,15 +1,11 @@
 
 ![Logo](https://github.com/teckno/Bemblin/blob/main/Screenshots/Rectangle.png)
 
-• A language learning app  
-
-• With the Hope of connecting Africa and the rest of the world through learning languages.
-
-• Translating material with ease
-
-•Documationing and making learning African languages fun
-
-•Offering reading, writing, hearing, and listening service
+- A language learning app  
+- With the Hope of connecting Africa and the rest of the world through learning languages.
+- Translating material with ease
+- Documationing and making learning African languages fun
+- Offering reading, writing, hearing, and listening service
 
 
 ## Screenshots
