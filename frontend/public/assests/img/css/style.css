@@ -1,0 +1,466 @@
+
+
+
+.container{
+position: relative;
+width: 100%;
+height: 3748px;
+
+background: #FFFFFF;
+}
+
+
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #f5f5f5;
+    z-index: 1;
+}
+
+.header{
+/* Frame 13 */
+
+position: absolute;
+height: 91px;
+left: 0px;
+right: -5px;
+bottom: 3656px;
+
+background: #235390;
+}
+
+.titlebar{
+
+    /* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 134px;
+height: 60px;
+left: 60px;
+top: calc(50% - 60px/2);
+}
+
+
+.title{
+/* bemblin */
+
+position: static;
+width: 134px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+font-family: Handlee;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 60px;
+
+/* identical to box height, or 133% */
+
+color: #EEDEDE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+/* butttons for the header */
+
+}
+
+
+
+.button_1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 10px;
+    position: absolute;
+    width: 70px;
+    height: 31px;
+    right: 195px;
+    top: calc(50% - 31px/2);
+    background: #E1EBF2;
+    border-radius: 30px;
+}
+
+
+
+
+.login{
+    color: rgba(4.000000236555934, 151.00000619888306, 255, 1);
+    width: 100px;
+    height: 16px;
+    position: absolute;
+    left: 1px;
+    top: 6px;
+    font-family: Handlee;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: px;
+    
+}
+
+
+
+
+.button_2{
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 10px;
+position: absolute;
+width: 70px;
+height: 31px;
+right: 95px;
+top: calc(50% - 31px/2);
+background: #0497FF;
+border-radius: 30px;
+}
+
+
+
+.signup{
+    position: static;
+    width: px;
+    height: 31px;
+    left: calc(50% - 59px/2 - 5.5px);
+    top: calc(50% - 31px/2);
+    font-family: Handlee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #ECF2F6;
+    flex: none;
+        flex-grow: 0;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+
+/* header content */
+
+.header_content{
+    position: absolute;
+    height: 766px;
+    left: 0px;
+    right: -5px;
+    top: 92px;
+    
+    
+    box-sizing: border-box;
+
+
+
+    
+background-color: rgba(0, 0, 0, 0.10000000149011612);
+
+background-image: url("/img/rect9.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header_main{
+position: absolute;
+width: 1440px;
+height: 766px;
+left: 0px;
+top: 92px;
+}
+
+
+
+
+
+
+
+.hide-overlay{
+
+background-color: rgba(5.000000176951289, 28.000000230968, 40.00000141561031, 0.6000000238418579);
+width: 100%;
+height: 766px;
+position: absolute;
+left: 0px;
+top: 93px;
+}
+
+.motto_title{
+    color: rgba(255, 255, 255, 1);
+    width: 633px;
+    height: 98px;
+    position: absolute;
+    left: 373px;
+    top: 367px;
+    font-family: Shadows Into Light;
+    text-align: center;
+    font-size: 71px;
+    letter-spacing: 0;
+
+}
+.rectangle_1{
+    position: absolute;
+    width: 80px;
+    height: 79px;
+    left: calc(50% - 80px/2 - 410px);
+    top: calc(50% - 79px/2 - 1469.5px);
+
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 972px;
+    top: 268px;
+    background-image: url("/img/rect1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rectangle_2{
+        width: 79px;
+        height: 79px;
+        position: absolute;
+        left: 266px;
+        top: 304px;
+        background-image: url("/img/rect2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .learn{
+        color: rgba(255, 255, 255, 1);
+        width: 471px;
+        height: 48px;
+        position: absolute;
+        left: 466px;
+        top: 498px;
+        font-family: Shadows Into Light;
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 4.699999809265137;
+    }
+    .menu{
+        width: 100%;
+        height: 89px;
+        position: absolute;
+        left: 0px;
+        top: 770px;
+    }
+    .menu-item-games{
+        
+            background-color: rgba(0, 0, 0, 0.10000000149011612);
+            width: 288px;
+            height: 89px;
+            position: absolute;
+            left: 1061px;
+            top: 0px;
+        
+    }
+    .menu-item-games-2{
+
+            background-color: rgba(255, 255, 255, 0.30000001192092896);
+            width: 288px;
+            height: 89px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+    }
+
+
+
+    .games{
+
+        color: rgba(255, 255, 255, 1);
+        width: 151.875px;
+        height: 68px;
+        position: absolute;
+        left: 68.625px;
+        top: 21px;
+        font-family: Handlee;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: px;
+    }
+    .trans{
+        
+        width: 288px;
+        height: 89px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    
+    }
+    .trans-1{
+
+        background-color: rgba(0, 0, 0, 0.10000000149011612);
+        width: 288px;
+        height: 89px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .trans-2{
+        background-color: rgba(255, 255, 255, 0.30000001192092896);
+        width: 288px;
+        height: 89px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .translation{
+        color: rgba(255, 255, 255, 1);
+        width: 151.875px;
+        height: 68px;
+        position: absolute;
+        left: 68.625px;
+        top: 21px;
+        font-family: Handlee;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: px;
+    }
+    .culture{
+        width: 288px;
+        height: 89px;
+        position: absolute;
+        left: 285px;
+        top: 0px;
+    }
+
+    .culture-1{
+        background-color: rgba(0, 0, 0, 0.10000000149011612);
+        width: 288px;
+        height: 89px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .culture-2{
+        background-color: rgba(255, 255, 255, 0.30000001192092896);
+        width: 288px;
+        height: 89px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .culturetext{
+            color: rgba(255, 255, 255, 1);
+            width: 151.875px;
+            height: 68px;
+            position: absolute;
+            left: 68.625px;
+            top: 21px;
+            font-family: Handlee;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: px;
+        } 
+
+        .about-us{
+            width: 288px;
+            height: 89px;
+            position: absolute;
+            left: 573px;
+            top: 0px;
+        }
+        .about-us-1{
+
+            background-color: rgba(0, 0, 0, 0.10000000149011612);
+            width: 288px;
+            height: 89px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        .about-us-2{
+
+            background-color: rgba(255, 255, 255, 0.30000001192092896);
+            width: 288px;
+            height: 89px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        .about{
+            color: rgba(255, 255, 255, 1);
+            width: 135px;
+            height: 68px;
+            position: absolute;
+            left: 61px;
+            top: 21px;
+            font-family: Handlee;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: px;
+        }
+
+        .course {
+            width: 290px;
+            height: 89px;
+            position: absolute;
+            left: 862px;
+            top: 0px;
+
+
+        }
+
+        .courses-1{
+
+            background-color: rgba(0, 0, 0, 0.10000000149011612);
+            width: 288px;
+            height: 89px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        .courses-2{
+            background-color: rgba(255, 255, 255, 0.30000001192092896);
+            width: 288px;
+            height: 89px;
+            position: absolute;
+            left: 2px;
+            top: 0px;
+        }
+
+        .course-text {
+
+            color: rgba(255, 255, 255, 1);
+            width: 151.875px;
+            height: 68px;
+            position: absolute;
+            left: 70.625px;
+            top: 21px;
+            font-family: Handlee;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 0;
+        }
+
+
+
+    
