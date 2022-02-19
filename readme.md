@@ -68,6 +68,7 @@ Please follow the readme in that folder to understand his code a bit more writte
 - [Danielk](https://github.com/koehdaniel)
 - [Silas](https://github.com/silasfox)
 - [Nicole](https://github.com/nicholasmakova)
+- 
 Danielk, technolovers Silas, Nicole, CoderGirl.
 
 
