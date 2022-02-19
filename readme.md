@@ -37,8 +37,10 @@ To deploy this project run
 
 You first have to run the python Django 
  .
-cd into the bemblin folder and
+cd into the Backend folder and
+
 Python manage runserver 
+
 You should have the service running on port 8000
 
 
@@ -63,8 +65,9 @@ Please follow the readme in that folder to understand his code a bit more writte
 
 ## Authors
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
-
+- [Danielk](https://github.com/koehdaniel)
+- [Silas](https://github.com/silasfox)
+- [Nicole](https://github.com/nicholasmakova)
 Danielk, technolovers Silas, Nicole, CoderGirl.
 
 
