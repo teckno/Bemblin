@@ -28,18 +28,19 @@ See `contributing. md` for ways to get started.
 Please adhere to this project's `code of conduct.
 
 
-## Deployment
 
-To deploy this project run
+#  Bemblin Run
 
 
-You first have to run the python Django 
- .
-cd into the Backend folder and
+    1.	cd to frontend directory run npm install
+    2.	Run npm build
+    3.	cd to backend directory
+    4.	Run python manage.py runserver
 
-Python manage runserver 
+Docker
+-
+You may also run the yaml docker file to get the project set up.
 
-You should have the service running on port 8000
 
 
 
