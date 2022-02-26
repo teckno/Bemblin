@@ -54,21 +54,14 @@ class Home extends React.Component {
 		    
 		    
 		    <div class="row">
-<<<<<<< Updated upstream
-			<img class="img-family" src="./img/family.png" alt="family">
-                        </img>
-			
-			<img class="img-cookid" src="./img/coolkid.png " alt="coolkids">
-                        </img>
-			<img class="img-people" src="./img/people.png" alt="People">
-=======
+
 			<img class="img-family" src={family} alt="family">
                         </img>
 			
 			<img class="img-cookid" src={coolkids} alt="coolkids">
                         </img>
 			<img class="img-people" src={people} alt="People">
->>>>>>> Stashed changes
+
                         </img>
 		    </div>
 		    <span class="title3">
@@ -85,11 +78,9 @@ class Home extends React.Component {
 				Exercises are tailored to help you learn and review vocabulary
 			    effectively.</p>
 			</div>
-<<<<<<< Updated upstream
-			<img class="game" src="./img/gam.png" alt=" Gamification">
-=======
+
 			<img class="game" src={games} alt=" Gamification">
->>>>>>> Stashed changes
+
                         </img>
 
 		    </div>
@@ -118,19 +109,13 @@ class Home extends React.Component {
 		    </div>
 
 		    <div class="section5">
-<<<<<<< Updated upstream
-			<img class="map" src="./img/rect1.png" alt="Zambia" >
-                        </img>
-			<img class="drum" src="./img/rect3.png"alt="Drums">
-                        </img>
-			<img class="globe" src="./img/rect2.png" alt="World">
-=======
+
 			<img class="map" src={zambia} alt="Zambia" >
                         </img>
 					<img class="drum" src={drums} alt="Drums">
                         </img>
 			<img class="globe" src={world} alt="World">
->>>>>>> Stashed changes
+
                         </img>
 		    </div>
 		    <br></br><br></br><br></br>
