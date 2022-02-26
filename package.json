@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "heroku-prebuild": "NODE_ENV=production cd frontend/ && npm install && npm build && cd .."
+    "heroku-prebuild": "NODE_ENV=production cd frontend/ && npm install && npm run build && cd .."
   },
   "cacheDirectories": [
     "frontend/node_modules"
