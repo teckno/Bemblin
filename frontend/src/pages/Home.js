@@ -124,15 +124,15 @@ class Home extends React.Component {
 			<div class="footer-content">
                             <img class="logo" src="./img/Frame 31.png" alt="Logo">
                             </img>
-<<<<<<< Updated upstream
+
 			    <p>Copyright © 2019 bemblin. All rights reserved.</p>
 			    <p>
 				bemblin is a website that aims to help people learn African languages.
-=======
+
 			    <p>Copyright © 2021 bemblin. All rights reserved.</p>
 			    <p>
 				bemblin is a Web App that aims to help people learn African languages.
->>>>>>> Stashed changes
+
 			    </p>
 			    <div class="contact">
 				<span><i class="fas fa-phone"></i>&nbsp;&nbsp;+234 816-816-8161</span>
