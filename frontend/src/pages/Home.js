@@ -1,6 +1,11 @@
 import React from 'react';
-
-
+import coolkids from '../img/coolkid.png';
+import family from '../img/family.png';
+import people from '../img/people.png'
+import games from '../img/gam.png'
+import zambia from '../img/rect1.png'
+import drums from '../img/rect2.png'
+import world from '../img/rect3.png'
 class Home extends React.Component {
     render() {
 	return (
@@ -49,12 +54,21 @@ class Home extends React.Component {
 		    
 		    
 		    <div class="row">
+<<<<<<< Updated upstream
 			<img class="img-family" src="./img/family.png" alt="family">
                         </img>
 			
 			<img class="img-cookid" src="./img/coolkid.png " alt="coolkids">
                         </img>
 			<img class="img-people" src="./img/people.png" alt="People">
+=======
+			<img class="img-family" src={family} alt="family">
+                        </img>
+			
+			<img class="img-cookid" src={coolkids} alt="coolkids">
+                        </img>
+			<img class="img-people" src={people} alt="People">
+>>>>>>> Stashed changes
                         </img>
 		    </div>
 		    <span class="title3">
@@ -71,7 +85,11 @@ class Home extends React.Component {
 				Exercises are tailored to help you learn and review vocabulary
 			    effectively.</p>
 			</div>
+<<<<<<< Updated upstream
 			<img class="game" src="./img/gam.png" alt=" Gamification">
+=======
+			<img class="game" src={games} alt=" Gamification">
+>>>>>>> Stashed changes
                         </img>
 
 		    </div>
@@ -100,11 +118,19 @@ class Home extends React.Component {
 		    </div>
 
 		    <div class="section5">
+<<<<<<< Updated upstream
 			<img class="map" src="./img/rect1.png" alt="Zambia" >
                         </img>
 			<img class="drum" src="./img/rect3.png"alt="Drums">
                         </img>
 			<img class="globe" src="./img/rect2.png" alt="World">
+=======
+			<img class="map" src={zambia} alt="Zambia" >
+                        </img>
+					<img class="drum" src={drums} alt="Drums">
+                        </img>
+			<img class="globe" src={world} alt="World">
+>>>>>>> Stashed changes
                         </img>
 		    </div>
 		    <br></br><br></br><br></br>
@@ -113,9 +139,15 @@ class Home extends React.Component {
 			<div class="footer-content">
                             <img class="logo" src="./img/Frame 31.png" alt="Logo">
                             </img>
+<<<<<<< Updated upstream
 			    <p>Copyright © 2019 bemblin. All rights reserved.</p>
 			    <p>
 				bemblin is a website that aims to help people learn African languages.
+=======
+			    <p>Copyright © 2021 bemblin. All rights reserved.</p>
+			    <p>
+				bemblin is a Web App that aims to help people learn African languages.
+>>>>>>> Stashed changes
 			    </p>
 			    <div class="contact">
 				<span><i class="fas fa-phone"></i>&nbsp;&nbsp;+234 816-816-8161</span>
