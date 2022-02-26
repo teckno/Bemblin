@@ -128,6 +128,7 @@ class Home extends React.Component {
 			    <p>Copyright © 2019 bemblin. All rights reserved.</p>
 			    <p>
 				bemblin is a website that aims to help people learn African languages.
+				</p>
 
 			    <p>Copyright © 2021 bemblin. All rights reserved.</p>
 			    <p>
