@@ -1,1 +1,1 @@
-web: cd backend && python manage.py migrate && gunicorn inheritance.wsgi
+web: cd backend && python manage.py migrate && gunicorn bemblin.wsgi
