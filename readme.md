@@ -1,5 +1,5 @@
 
-## Bemblin
+#Bemblin
 
 ![Logo](https://github.com/teckno/Bemblin/blob/main/Screenshots/Rectangle.png)
 
@@ -29,7 +29,7 @@ Please adhere to this project's `code of conduct.
 
 
 
-#  Bemblin Run
+##Bemblin Run
 
 
     1.	cd to frontend directory run npm install
