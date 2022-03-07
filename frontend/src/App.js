@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Home from './pages/Home';
 import './App.css';
 import SignUp from './pages/SignUp'
 import Translations from './pages/Translations';
 import {
-  BrowserRouter as Router,
   Route,
   Switch,
 } from "react-router-dom";
