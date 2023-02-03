@@ -19,13 +19,13 @@ class Home extends React.Component {
 
 			    <div class="menu">
 				
-				<a href="#" class="anchor">Translations</a>
+				<li>Translations</li>
 				
-				<a href="#" class="anchor">Course</a>
+				<li>Course</li>
 				
-				<a href="#" class="anchor">About us</a>
+				<li>About us</li>
 				
-				<a href="#" class="anchor">Cultures</a>
+				<li>Cultures</li>
 
 			    </div>
 
