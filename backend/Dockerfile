@@ -10,8 +10,17 @@ RUN pip install -r requirements.txt
 # Copy the Django project files
 COPY . .
 
+#Run Python migrate
+
+RUN python manage.py migrate
 # Run the Django development server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "manage.py", "runserver", "127.0.0.1:8000"]
+
 
 # Expose the port that the Django development server runs on
 EXPOSE 8000
+
+# Set the image name to "Backend"
+
+LABEL Name=Backend
+

@@ -1,4 +1,4 @@
-version: '3.2'
+version: "3.2"
 services:
   backend:
     build: ./backend
@@ -8,7 +8,8 @@ services:
       - "8000:8000"
     stdin_open: true
     tty: true
-    command: cd backend/ python3 manage.py runserver 0.0.0.0:8000
+    command: python3 manage.py runserver
+
   frontend:
     build: ./frontend
     volumes:
@@ -21,4 +22,5 @@ services:
       - NODE_ENV=development
     depends_on:
       - backend
-    command: cd frontend/ npm start
+
+    command: npm install && npm build && npm start
