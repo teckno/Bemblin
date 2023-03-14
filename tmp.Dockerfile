@@ -8,7 +8,7 @@ WORKDIR /app
 COPY backend/ /app
 
 # Install the dependencies for the backend
-RUN pip install --no-cache-dir -r backend/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the frontend code into the container
 COPY frontend/ /app/frontend
