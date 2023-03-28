@@ -1,35 +1,26 @@
-# Use an official Python runtime as the base image
-FROM python:3.9-slim-buster
+# Build stage
+FROM node:14 AS build
 
-# Set the working directory in the container
-WORKDIR /app
-
-# Copy the backend code into the container
-COPY backend/ /app
-
-# Install the dependencies for the backend
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the frontend code into the container
-COPY frontend/ /app/frontend
-
-# Change to the frontend directory
 WORKDIR /app/frontend
-
-# Install the dependencies for the frontend
+COPY frontend/package*.json ./
 RUN npm install
-
-# Build the frontend
+COPY frontend/ ./
 RUN npm run build
 
-# Change back to the backend directory
+# Production stage
+FROM python:3.9-slim
+
 WORKDIR /app
 
-# Set environment variables
-ENV PYTHONUNBUFFERED=1
+# Install dependencies
+COPY backend/requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose the default Django port
-EXPOSE 8000
+# Copy built frontend files into backend static directory
+COPY --from=build /app/frontend/build/ /app/backend/static/
 
-# Define the command to run the backend server
-CMD ["python", "backend/manage.py", "runserver", "0.0.0.0:8000"]
+# Copy backend code
+COPY backend/ ./
+
+# Start the server
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]

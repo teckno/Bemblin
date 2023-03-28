@@ -1,8 +1,9 @@
 import React from 'react';
 import Home from './pages/Home';
 import './App.css';
-import SignUp from './pages/SignUp'
-import Translations from './pages/Translations';
+import Signup from './pages/Signup'
+import Translations from './pages/login';
+import login from './pages/login';
 import {
   Route,
   Switch,
@@ -13,7 +14,9 @@ function App() {
     
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/SignUp" component={SignUp} />
+          <Route path="/Signup" component={Signup} />
+            <Route path="/login" component={login} />
+
           <Route path="/Translations" component={Translations} />
          
          
