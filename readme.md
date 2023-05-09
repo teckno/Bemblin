@@ -9,7 +9,7 @@
 - Documationing and making learning African languages fun
 - Offering reading, writing, hearing, and listening service
 
-please consider joining <a href="https://discord.gg/xBPBXfcFHd">Laion <img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white"></a>
+Please consider joining <a href="https://discord.gg/bGfRn7W3Ua">Technolovers-Hub<img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white"></a>
 
 Alternative: <a href="https://arxiv.org/abs/2302.02676">Chain of Hindsight</a>
 
